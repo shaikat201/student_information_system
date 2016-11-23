@@ -37,7 +37,7 @@
 	<?php
 	mysql_connect("localhost","root","");
 	mysql_select_db("department");
-	
+	//db_connection
 	$query="select * from students";
 	$run=mysql_query($query);
 	
@@ -82,9 +82,7 @@
 	
 	</body>
 
-
-        
-      </p>
+    </p>
   <p align="center">&nbsp;</p>
       <p align="center"> 
 	  <a href="admin/index.php"><img border="0" src="admin/images/cooltext457954941.png" 
